@@ -1,93 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Navigation Bar -->
+  <!-- Navigation -->
   <nav>
-    <div class="container">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#project-skills">Projects</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#info">Info</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
 
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <h1>SOWMIYA</h1>
-      <p>Address:1/67,Kudi street,Koothur,Trichy.</p>
-    </div>
-  </header>
-
-  <!-- About -->
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>I’m an engineering student with strong foundation in web development.And i want to become an web developer.</p>
-    </div>
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <h1>Sowmiya</h1>
+    <p>Welcome to my portfolio</p>
   </section>
 
-  <!-- Skills -->
-  <section id="skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Git & GitHub</li>
-      </ul>
-    </div>
-  </section>
+  <!-- Info Section -->
+  <section id="info" class="section">
+    <h2>Personal Info</h2>
+    <p><strong>Address:</strong> 1/67,trichy,Tamil nadu.</p>
+    <p><strong>Age:</strong> 20</p>
+    <p><strong>Mobile:</strong> +91 9361637037</p>
+    <p><strong>Email:</strong> <a href="sowmiyaarumugam1505@gmail.com">yourname@example.com</a></p>
 
-  <!-- Project Skills -->
-  <section id="project-skills">
-    <div class="container">
-      <h2>Project Skills</h2>
-      <p>Built responsive websites, created RESTful APIs, used frameworks like React and Bootstrap for design and functionality.</p>
-    </div>
-  </section>
-
-  <!-- Resume -->
-  <section id="resume">
-    <div class="container">
-      <h2>Resume</h2>
+    <div class="buttons">
       <a href="https://drive.google.com/file/d/1hVFJamTfUDfIpgqtRQUU_9rupS5-7MMy/view?usp=drivesdk" download class="btn">Download Resume</a>
+      <a href="https://www.linkedin.com/in/sowmiya-a-140b2b257" target="_blank" class="btn">LinkedIn</a>
+      <a href="https://github.com/Sowmiya1515" target="_blank" class="btn">GitHub</a>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <form>
-        <input type="text" placeholder="SOWMIYA" required>
-        <input type="email" placeholder="sowmiyaarumugam1505@gmail.com" required>
-        <textarea placeholder="Hello,it's a pleasure for me to send you a message"required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
   </section>
 
   <!-- Footer -->
   <footer>
-    <div class="container">
-      <p>&copy; 2025 Your Name. All rights reserved.</p>
-    </div>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
   </footer>
 
 </body>
 </html>
-
-
