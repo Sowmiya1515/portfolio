@@ -6,122 +6,117 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
+  background-color:darkblue;
 }
 
-.container {
-  width: 85%;
-  margin: auto;
-  padding: 20px;
-}
-
-/* Navigation */
 nav {
-  background-color: #222;
-  padding: 10px 0;
   position: sticky;
   top: 0;
+  background: #0077b6;
+  padding: 10px;
+  text-align: center;
   z-index: 999;
 }
 
 nav ul {
+  list-style: none;
   display: flex;
   justify-content: center;
-  list-style: none;
+  gap: 30px;
 }
 
-nav ul li {
-  margin: 0 20px;
-}
-
-nav ul li a {
-  color: #fff;
+nav a {
+  color: rgb(202, 24, 24);
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.1rem;
   transition: color 0.3s;
 }
 
-nav ul li a:hover {
-  color: #00bfff;
+nav a:hover {
+  color: #90e0ef;
 }
 
-/* Header */
-header {
-  background: #333;
-  color: #fff;
-  padding: 60px 0;
-  text-align: center;
+.section {
+  padding: 80px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-header h1 {
+.section:nth-child(even) {
+  background-color: #f1f8ff;
+}
+
+h1 {
   font-size: 3rem;
-}
-
-/* Section */
-section {
-  padding: 60px 0;
+  color: #0077b6;
 }
 
 h2 {
-  text-align: center;
+  font-size: 2rem;
   margin-bottom: 20px;
-  color: #444;
+  color: #023e8a;
 }
 
-ul {
-  list-style-type: square;
-  padding-left: 40px;
+a {
+  color: #0077b6;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .btn {
-  display: inline-block;
-  background: #007BFF;
-  color: #fff;
+  background-color: #00b4d8;
+  color: white;
   padding: 10px 20px;
   text-decoration: none;
-  margin-top: 10px;
-  border-radius: 5px;
+  border-radius: 8px;
   transition: background 0.3s ease;
 }
 
 .btn:hover {
-  background: #0056b3;
+  background-color: #0077b6;
 }
 
 form {
-  max-width: 600px;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  width: 100%;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
 }
 
 form button {
-  background: #28a745;
-  color: #fff;
   padding: 10px;
   border: none;
-  border-radius: 4px;
+  background: #0096c7;
+  color: white;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 
 form button:hover {
-  background: #218838;
+  background: #023e8a;
 }
 
 footer {
-  background: #222;
-  color: #fff;
+  background: #0077b6;
+  color: white;
   text-align: center;
   padding: 20px 0;
 }
